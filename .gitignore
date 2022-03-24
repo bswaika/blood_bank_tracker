@@ -1,3 +1,7 @@
 build/
 
 local.properties
+
+gradle/
+
+src/debug/res/values
