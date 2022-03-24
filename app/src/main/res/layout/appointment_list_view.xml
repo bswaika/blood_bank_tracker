@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Name"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/nameText"
+        android:layout_below="@+id/nameText"
+        android:layout_marginTop="6dp"
+        android:text="Address"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/contactText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/addressText"
+        android:layout_below="@+id/addressText"
+        android:layout_marginTop="6dp"
+        android:text="Contact"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/typeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/timeText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:text="DONATE"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/contactText"
+        android:layout_below="@+id/contactText"
+        android:layout_marginTop="6dp"
+        android:text="Date"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/dateText"
+        android:layout_below="@+id/dateText"
+        android:layout_marginTop="6dp"
+        android:text="Time"
+        android:textSize="10sp" />
+
+</RelativeLayout>
